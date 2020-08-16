@@ -1,0 +1,10 @@
+[package]
+name = "whatthetag"
+version = "0.1.0"
+authors = ["Mika Dede <me@mde.de.com>"]
+edition = "2018"
+
+[dependencies]
+log = "^0.4.11"
+structopt = "^0.3.16"
+pretty_env_logger = "0.4.0"
