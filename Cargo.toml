@@ -4,6 +4,14 @@ version = "0.1.0"
 authors = ["Mika Dede <me@mde.de.com>"]
 edition = "2018"
 
+[lib]
+name = "wtt_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "wtt"
+path = "src/main.rs"
+
 [dependencies]
 log = "^0.4.11"
 structopt = "^0.3.16"
